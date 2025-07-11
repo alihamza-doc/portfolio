@@ -8,7 +8,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileLines } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -38,7 +38,7 @@ export default function Navbar() {
             <div className="relative flex h-16 items-center justify-between">
               {/* Left: Logo */}
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faFileLines} className="text-black text-3xl" />
+                <FontAwesomeIcon icon={faLaptopCode} className="text-black text-5xl" />
               </div>
 
               {/* Mobile Menu Button (for small screens) */}
